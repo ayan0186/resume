@@ -92,7 +92,7 @@ textarea {
 }
 
 body {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4; /* Light gray background */
   color: #333; /* Dark gray text */
   line-height: 1.6;
@@ -131,7 +131,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fc9630; /* Accent color on hover */
+  color: #2b2928; /* Accent color on hover */
 }
 
 /* Main Layout */
@@ -246,6 +246,12 @@ footer {
 
 .project li {
   margin: 20px;
+}
+
+footer a{
+  background-color: #333;
+  text-decoration: underline;
+  padding: 9px; 
 }
 /* ==========================================================================
    Helper classes
