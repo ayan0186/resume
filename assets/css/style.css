@@ -136,7 +136,7 @@ nav a:hover {
 
 /* Main Layout */
 main {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -147,7 +147,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 30px;  
 }
 
 section h2 {
@@ -228,34 +228,17 @@ footer {
   background-color: #333;
   color: white;
   margin-top: 40px;
-}
-
-/* Card Styles */
-.card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 30px;
-}
-
-.card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 15px;
-}
-
-.project li {
-  margin: 20px;
+  float:none;
 }
 
 footer a{
   background-color: #333;
   text-decoration: underline;
   padding: 9px; 
+  
 }
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+   Helper classes ====================================================== */
 
 /*
  * Hide visually and from screen readers
